@@ -4,6 +4,7 @@ import webbrowser
 root=Tk()
 root.title("abbreviation")
 root.geometry("500x200")
+root.configure(bg="#12617D")
 
 root.grid_rowconfigure(0,weight=1)
 root.grid_rowconfigure(1,weight=1)
